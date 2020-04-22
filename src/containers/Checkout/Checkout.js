@@ -53,7 +53,7 @@ class Checkout extends Component {
 
 const mapStateToProps = state => {
     return {
-        // state that is managed in the reducer
+        // state that is managed in the burgerBuilder
         ings: state.ingredients,
     }
 };
